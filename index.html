@@ -7,18 +7,83 @@
     <title>Dashboard</title>
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
-    <link rel="icon" href="https://em-content.zobj.net/thumbs/120/google/350/herb_1f33f.png">
+    <link rel="icon" href="https://em-content.zobj.net/thumbs/120/google/350/memo_1f4dd.png">
 </head>
 <body>
     <div class="header">
-        <h1>header</h1>
+        <div class="search-container">
+            <label for="search-field"><img src="images/magnify.svg" alt="Search image"></label>
+            <input type="text" id="search-field" class="search-input">
+        </div>
+        <div class="profile-container">
+            <img class="bell-img" src="images/bell.svg" alt="Bell image">
+            <img class="user-profile" src="images/raven.png" alt="user profile image">
+            <h3 class="user-name">Edgar A. Poe</h3>
+        </div>
+        <div class="welcome-container">
+            <img class="user-profile-big" src="images/raven.png" alt="user profile image">
+            <p class="hi-para">Hi there,</p>
+            <p class="main-user-name">Edgar A. Poe (@Nightpain)</p>
+        </div>
+        <div class="btns-container">
+            <button class="header-btn">New</button>
+            <button class="header-btn">Upload</button>
+            <button class="header-btn">Share</button>
+        </div>
     </div>
-    <div class="side-nav-bar">
-        <h1>Dashboard</h1>
-    </div>
+    <nav class="side-nav-bar">
+        <div class="logo">
+            <img class="img-icon" src="images/feather.svg" alt="Dashboard icon">
+            <h3>Dashboard</h3>
+        </div>
+        <div class="main-links">
+            <ul>
+                <li>
+                    <img src="images/home.svg" alt="Home">
+                    <p>Home</p>
+                </li>
+                <li>
+                    <img src="images/profile.svg" alt="Profile">
+                    <p>Profile</p>
+                </li>
+                <li>
+                    <img src="images/messages.svg" alt="Messages">
+                    <p>Messages</p>
+                </li>
+                <li>
+                    <img src="images/history.svg" alt="History">
+                    <p>History</p>
+                </li>
+                <li>
+                    <img src="images/tasks.svg" alt="Tasks">
+                    <p>Tasks</p>
+                </li>
+                <li>
+                    <img src="images/community.svg" alt="Communities">
+                    <p>Communities</p>
+                </li>
+            </ul>
+        </div>
+        <div class="secondary-links">
+            <ul>
+                <li>
+                    <img src="images/settings.svg" alt="Settings">
+                    <p>Settings</p>
+                </li>
+                <li>
+                    <img src="images/help.svg" alt="Support">
+                    <p>Support</p>
+                </li>
+                <li>
+                    <img src="images/privacy.svg" alt="Privacy">
+                    <p>Privacy</p>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <div class="page-content">
         <div class="projects">
-            <h2 class="page-content-title">Your Projects</h2>
+            <h4 class="page-content-title">Your Projects</h4>
             <div class="card">
                 <p class="title">Article Title</p>
                     <p>Some text . . </p>
@@ -56,19 +121,19 @@
                 <div class="announ-content">
                     <div class="Announcement">
                         <h6>New Update</h6>
-                        <p>Our page is...</p>
+                        <p class="announce-text">Our page is...</p>
                     </div>
                     <div class="Announcement-border"></div>
                     <div class="Announcement">
                         <h6>Dog's name</h6>
-                        <p>
+                        <p class="announce-text">
                             I can't decide whether to call the dog Sudo or Byte.
                         </p>
                     </div>
                     <div class="Announcement-border"></div>
                     <div class="Announcement">
                         <h6>Site Maintenance</h6>
-                        <p>Instead of lorem ipsum I have used , check
+                        <p class="announce-text">Instead of lorem ipsum I have used , check
                             it out!</p>
                     </div>
                 </div>
@@ -77,10 +142,10 @@
                 <h4>Trending</h4>
                 <div class="trending-content">
                     <div class="trend">
-                        <img class="trend-img" src="" alt="dog trend image">
+                        <img class="trend-img" src="images/cat.png" alt="black cat">
                         <p>
-                            <span class="trend-tag">@teganan</span><br>
-                            <span class="trend-text">World Peace Builder</span>
+                            <span class="trend-tag">@theBlackCat</span><br>
+                            <span class="trend-text">Hiding behind the wall</span>
 
                         </p>
                     </div>
